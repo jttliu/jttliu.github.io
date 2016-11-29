@@ -1,0 +1,86 @@
+body {	
+font-family: 'Rubik', sans-serif;
+font-family: 'Montserrat', sans-serif;
+margin: 0px;
+padding: 0px;
+background: white;
+}
+
+#navbar {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: #4d3319; 
+}
+
+.navbar-item {
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    margin-left: 160px;
+}
+
+.section {
+    width: 100%;
+    height: 800px;
+}
+
+#homepage {
+    background-color: white;
+}
+
+#icy {
+    margin-top: 100px;
+    margin-left: 100px;
+    float: left;
+    width: 500px;
+}
+
+#greeting {
+    padding: 300px;
+}
+#greeting1 {
+    margin-left: 55%;
+    color: #e6005c;
+    font-size: 100px;   
+}
+#greeting2 {
+    margin-left: 56%;
+    color: #e6005c;  
+}
+
+#aboutme {
+    background-color: #ffe6cc;
+}
+
+#logo {
+    float: left;
+    width: 400px;
+    margin-left: 100px;
+}
+
+#about {
+    padding: 60px;
+    line-height: 30px;
+    margin-left: 30%;
+    width: 700px;
+    color: #e6005c;
+    font-size: 20px;
+}
+
+#photopage {
+    background-color: #ffe6cc;
+}
+
+#contact {
+    background-color: #ffe6cc;
+}
+
+
+.picture {
+    width: 300px;
+}
+
+}
