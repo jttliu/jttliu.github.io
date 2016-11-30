@@ -41,6 +41,11 @@ padding-top:700px;display:block;content:"";
 
 #section {
     cursor: pointer;
+
+<style> html, body, a, a:hover { cursor:url('http://www.snazzyspace.com/cursorsfolder/dog-paw.png'), auto !important; }</style>
+<div><a style="position:fixed;z-index:9 !important;top:300px;left:3px;" href="http://www.snazzyspace.com/" title="Tumblr Mouse Cursors" target="_blank"><img 
+src="http://www.snazzyspace.com/images/tumblr_cursors.gif" border="0" alt="Tumblr Mouse Cursors" /></a></div>   
+
 }
 
 #homepage {
@@ -57,11 +62,21 @@ padding-top:700px;display:block;content:"";
 #greeting {
     padding: 300px;
 }
+
 #greeting1 {
     margin-left: 55%;
     color: #e6005c;
     font-size: 100px;   
 }
+
+#greeting1:hover {
+    color: #40D6CC;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
 #greeting2 {
     margin-left: 56%;
     color: #e6005c;  
@@ -81,6 +96,18 @@ padding-top:700px;display:block;content:"";
     float: left;
     width: 400px;
     margin-left: 100px;
+}
+
+#logo:hover {
+    -webkit-transition: 0.7s ease-in-out;
+    -moz-transition: 0.7s ease-in-out;
+    -o-transition: 0.7s ease-in-out;
+    transition: 0.7s ease-in-out;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
 }
 
 #text {
@@ -111,6 +138,20 @@ padding-top:700px;display:block;content:"";
     width: 300px;
 }
 
+.hobby:hover {
+  animation: pulse 0.7s infinite;
+}
+
+@keyframes pulse {
+  50% {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
 #foods {
     position: relative;
     display: inline-block;
@@ -126,6 +167,27 @@ padding-top:700px;display:block;content:"";
     padding: 10px;
 }
 
+.food:hover {
+  animation: rotate 0.7s infinite;
+}
+
+@keyframes rotate {
+  30% {
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }
+  80% {
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+}
+
 #friends {
     position: relative;
     color: white;
@@ -137,6 +199,27 @@ padding-top:700px;display:block;content:"";
 
 .friend {
     width: 350px;
+}
+
+.friend:hover {
+  animation: dance 0.5s infinite;
+}
+
+@keyframes dance {
+  30% {
+    -webkit-transform: translate(0, -10px);
+    -moz-transform: translate(0, -10px);
+    -o-transform: translate(0, -10px);
+    -ms-transform: translate(0, -10px);
+    transform: translate(0, -10px);
+  }
+  80% {
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
 }
 
 #photopage {
@@ -154,24 +237,17 @@ padding-top:700px;display:block;content:"";
     padding: 30px;
 }
 
-#lightbox {
-    top:0; 
-    left:0; 
-    width:100%; 
-    height:100%; 
-    background: rgba(0,0,0,.7); 
-    text-align:center;
-}
-
-#lightbox img {
-    box-shadow:0 0 25px #111;
-    -webkit-box-shadow:0 0 25px #111;
-    -moz-box-shadow:0 0 25px #111;
-    max-width:940px;
-}
-
 .img {
     padding: 10px;
+    opacity: 0.7;
+}
+
+.img:hover {
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    opacity: 1;
 }
 
 .picture {
@@ -189,6 +265,18 @@ padding-top:700px;display:block;content:"";
     width: 120px;
 }
 
+.social:hover {
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    -webkit-transform: translate(0, -10px);
+    -moz-transform: translate(0, -10px);
+    -o-transform: translate(0, -10px);
+    -ms-transform: translate(0, -10px);
+    transform: translate(0, -10px);
+}
+
 .contact{
     color: #e6005c;
     display: inline-block;
@@ -201,6 +289,34 @@ padding-top:700px;display:block;content:"";
     display: table;
     margin: auto;
     width: 400px;
+}
+
+.circle:hover {
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    -webkit-transform: rotate(360deg) scale(1.2);
+    -moz-transform: rotate(360deg) scale(1.2);
+    -o-transform: rotate(360deg) scale(1.2);
+    -ms-transform: rotate(360deg) scale(1.2);
+    transform: rotate(360deg) scale(1.2);
+}
+
+#bone {
+    width: 200px;
+}
+
+.sent {
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    -webkit-transform: translate(-200px, 100px) scale(0.5);
+    -moz-transform: translate(-200px, 100px)scale(0.5);
+    -o-transform: translate(-200px, 100px) scale(0.5);
+    -ms-transform: translate(-200px, 100px) scale(0.5);
+    transform: translate(-200px, 100px) scale(0.5);
 }
 
 #contactpage {
