@@ -15,7 +15,7 @@ padding-top:50px;display:block;content:"";
 }
 
 #photos:before{
-padding-top:100px;display:block;content:"";
+padding-top:50px;display:block;content:"";
 }
 
 #contact:before{
@@ -26,7 +26,7 @@ padding-top:700px;display:block;content:"";
     position: fixed;
     width: 100%;
     height: 70px;
-    background-color: #e6005c; 
+    background-color: #FFCFDA; 
     z-index: 10;
 }
 
@@ -73,7 +73,8 @@ padding-top:700px;display:block;content:"";
 }
 
 #about {
-    background-color: #ffe6cc; 
+    background-color: #ffe6cc;
+    padding: 20px; 
 }
 
 #logo {
@@ -131,7 +132,7 @@ padding-top:700px;display:block;content:"";
     background-color: #ffafbc;
     text-align: center;
     height: 400px;
-    padding: 50px;
+    padding: 20px;
 }
 
 .friend {
@@ -146,10 +147,11 @@ padding-top:700px;display:block;content:"";
 }
 
 #phototext {
+    margin-top: 40px;
     font-size: 40px;
     color: white;
     text-align: center;
-    padding: 70px;
+    padding: 30px;
 }
 
 #lightbox {
