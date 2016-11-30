@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	$("#navbar").hover(function() {
- 		$("body").css("background", "#35465C");
+ 		$("#navbar").css("background-color", "white");
 	});
 	// $(".sidebar").click(function() {
  //    if ($("#sidebar-button").hasClass("button-active")) {
