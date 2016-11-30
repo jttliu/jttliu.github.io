@@ -382,6 +382,7 @@ padding-top:700px;display:block;content:"";
 }
 
 #contacttext {
+    padding: 10px;
     font-size: 50px;
     font-style: bold;
     text-align: center;
